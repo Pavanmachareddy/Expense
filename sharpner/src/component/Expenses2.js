@@ -3,7 +3,7 @@ import ExpenseDate from './ExpenseDate';
 import Card from './Card';
 
 
-function Expenses2(props){
+const Expenses2=(props)=>{
 // const expenseDate = new Date(2022,7,17);
 // const expenseTitle = "Car Insurance";
 // const expenseAmount = 2000;
