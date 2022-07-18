@@ -1,8 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
+import './component/expense.css'
 // import ExpenseItem from "./component/ExpenseItem";
 // import Expenses from "./component/Expenses";
 import Expenses2 from './component/Expenses2';
+
 
 
 function App() {

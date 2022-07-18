@@ -1,5 +1,6 @@
 import './Expenses1.css';
 import ExpenseDate from './ExpenseDate';
+import Card from './Card';
 
 
 function Expenses2(props){
@@ -8,14 +9,14 @@ function Expenses2(props){
 // const expenseAmount = 2000;
 
     return (
-        <div className="expense-item">
+        <Card className="expense-item">
            {/* <div>{props.date.toISOString()}</div> */}
-           <ExpenseDate date={props.date} />
-            <div className ="expense-item__description">
+           <ExpenseDate date={props.date} title={props.title} amount={props.amount} />
+            {/* <div className ="expense-item__description">
                 <h2>{props.title}</h2>
-                <div className="expense-item__price">${props.amount}</div>
-            </div>
-        </div>
+                <div className="expense-item__price">${props.amount}</div> 
+            </div> */}
+        </Card>
     )
 }
 export default Expenses2;
